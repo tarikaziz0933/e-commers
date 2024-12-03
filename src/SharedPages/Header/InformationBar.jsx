@@ -1,3 +1,6 @@
+import { FaFacebook } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaTwitter } from "react-icons/fa6";
 
 const InformationBar = () => {
     return (
@@ -44,6 +47,11 @@ const InformationBar = () => {
                     </li>
                     <li><a>Contact US</a></li>
                 </ul>
+            </div>
+            <div className="navbar-end space-x-4 text-2xl text-white">
+                <FaFacebook />
+                <MdEmail />
+                <FaTwitter />
             </div>
             {/* <div className="navbar-end">
                 <a className="btn">Button</a>
